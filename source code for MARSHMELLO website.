@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title> Marshmello tribute.</title>
+<style>
+body {
+  background-color:black ;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family:serif;
+  font-size: 50px;
+}
+
+p {
+color:white;
+  font-family: verdana;
+  font-size: 21.5px;
+  text-align: center;
+}
+button { 
+font-family:Papyrus;
+text-align: center;
+}
+img { padding-left: 10;
+}
+iframe { text-align: center;
+}
+
+</style>
+<h1> Tribute to Marshmello. </h1>
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="https://codehs.com/uploads/52790c2b33a3db3de7cd9130a9c7085e" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to play or pause the song.</p>
+
+<button onclick="playAudio()" type="button">Start song!</button>
+<button onclick="pauseAudio()" type="button">Pause song!</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+<p></p>
+
+<iframe src="https://giphy.com/embed/Q5vOsoloXG5vk69QyO" width="400" height="480" frameBorder="0" class="giphy-embed" allowFullscreen></iframe><p><a href="https://giphy.com/gifs/marshmello-marshmallow-mello-happier-Q5vOsoloXG5vk69QyO"></a></p>          
+      
+    </iframe>
+
+</body>
+</html>
